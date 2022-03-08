@@ -14,6 +14,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import Form from '../../components/form'
 
+
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
@@ -22,6 +23,10 @@ export default function Post({ post, morePosts, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
+
+    
+
+        
         <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
