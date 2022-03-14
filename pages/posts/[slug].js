@@ -22,6 +22,9 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <Layout preview={preview}>
+
+
+
       <Container>
 
     
@@ -56,6 +59,9 @@ export default function Post({ post, morePosts, preview }) {
           </>
         )}
       </Container>
+
+
+      
     </Layout>
   )
 }
