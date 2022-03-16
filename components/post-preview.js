@@ -3,7 +3,7 @@ import Date from "../components/date";
 import CoverImage from "./cover-image";
 import Link from "next/link";
 import { imageBuilder } from "../lib/sanity";
-import { BookmarkIcon } from '@heroicons/react/solid'
+import { BookmarkIcon } from '@heroicons/react/solid';
 
 
 
@@ -21,7 +21,11 @@ export default function PostPreview({
 
 
 
-    <div class="max-w-md mx-auto bg-white  shadow-md overflow-hidden  hover:shadow-medium transition-shadow duration-300 ">
+    <div class="max-w-md mx-auto bg-white  shadow-md overflow-hidden  hover:shadow-medium rounded-lg transition-shadow duration-100 ">
+      
+      <Link as={`/posts/${slug}`} href="/posts/[slug]">
+      
+      
       <div class="w-sm">
         <div class="md:shrink-0">
           <CoverImage
@@ -44,22 +48,21 @@ export default function PostPreview({
 
 
 
-          <BookmarkIcon className="h-7 w-7 text-indigo-400"/>
-       
+          <BookmarkIcon className="h-7 w-7 text-indigo-400 mb-5"/>
+          <button type="button"
+           class=" text-white bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+           > Read more
+           
+          </button>
   
 
-          <a
-            href="#"
-            class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-          >
-            <Link as={`/posts/${slug}`} href="/posts/[slug]">
-              <a className="hover:underline">{title}</a>
-            </Link>
-          </a>
+          <div className="mb-5">
+            
+              {title}
+            
+          </div>
 
-
-
-          
+      
     
 
     
@@ -67,7 +70,7 @@ export default function PostPreview({
       </div>
 
 
-
+      </Link>
    
     </div>
 
