@@ -11,7 +11,7 @@ export default function Intro() {
 
 
  
-    <div class='max-w-md mx-auto m-8'>
+    <div class='max-w-md mx-auto m-8 '>
     <div class="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
         <div class="grid place-items-center h-full w-12 text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -35,7 +35,9 @@ export default function Intro() {
 
 
       <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12      repeating-radial-gradient(circle closest-corner at 100px 100px, #553c9a, #b393d3 10%, #553c9a 20%);">
-        <h3 className="text-6xl md:text-4xl font-bold tracking-tighter leading-tight md:pr-8">
+        
+      
+        <h3 className="text-6xl md:text-4xl font-bold tracking-tighter ">
           Efficient & Effective Programming.
         </h3>
         <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">

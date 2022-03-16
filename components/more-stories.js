@@ -1,6 +1,6 @@
 import PostPreview from '../components/post-preview';
 import Pagination from './Pagination';
-import Cart from './Cart';
+
 
 
 
@@ -29,7 +29,7 @@ export default function MoreStories({ posts }) {
       </div>
 
 
-
+    
 
       <Pagination />
 
