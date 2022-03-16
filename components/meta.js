@@ -37,6 +37,10 @@ export default function Meta() {
         content={`A statically generated blog example using Next.js and Sanity.io.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+
+      <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/9b23e62248df71de729332324/2fc81474e78f779bcae0080f3.js");</script>
+
+
     </Head>
   )
 }

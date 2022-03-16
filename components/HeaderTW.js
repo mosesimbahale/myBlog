@@ -4,9 +4,11 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'SmartSoft', href: '#', current: false },
+
+  { name: 'HOME', href: '#', current: false },
+  { name: 'CONSULT', href: '#', current: false },
   { name: 'BLOG', href: '#', current: false },
-  { name: 'Consultant', href: '#', current: false },
+  { name: 'STORE', href: '#', current: false },
  
  
 

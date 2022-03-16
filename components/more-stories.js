@@ -8,7 +8,7 @@ export default function MoreStories({ posts }) {
   return (
     <>
     <section>
-      <h2 className="   mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
+      <h2 className="   mb-4 text-4xl font-bold tracking-tighter leading-tight">
         More Stories
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 md:col-gap-16 gap-4 lg:col-gap-32 row-gap-20 md:row-gap-32 mb-32  ">
