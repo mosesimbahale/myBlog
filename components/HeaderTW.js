@@ -6,7 +6,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
 
   { name: 'HOME', href: '/', current: false },
-  { name: 'CONSULT ', href: '/', current: false },
+  { name: 'CONSULT ', href: 'https://smartsoft-1e96.mailchimpsites.com/', target:"_blank" , current: false },
   { name: 'BLOG', href: '/', current: false },
   { name: 'STORE', href: '/', current: false },
  
@@ -44,13 +44,13 @@ export default function Example() {
                 <div className="flex-shrink-0 flex items-center">
                   
                   <img
-                    className="block lg:hidden h-12 w-auto"
+                    className="block lg:hidden h-8 w-auto"
                     src="logo3.png"
                     alt="logo"
                   />
                   
                   <img
-                    className="hidden lg:block h-12 w-auto"
+                    className="hidden lg:block h-8 w-auto"
                     src="logo3.png"
                     alt="logo"
                   />
