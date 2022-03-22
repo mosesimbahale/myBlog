@@ -1,5 +1,5 @@
 import PostPreview from '../components/post-preview';
-import Pagination from './Pagination';
+
 
 
 
@@ -31,7 +31,7 @@ export default function MoreStories({ posts }) {
 
     
 
-      <Pagination />
+
 
     </section>
 
